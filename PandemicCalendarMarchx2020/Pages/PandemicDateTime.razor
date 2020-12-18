@@ -1,0 +1,26 @@
+﻿<h1>Pandemic Calendar</h1>
+<h3> (March ?, 2020)</h3>
+<h6>Inspired by <a href="https://www.marketplace.org/shows/make-me-smart-with-kai-and-molly">Make Me Smart with Kai and Molly</a></h6>
+
+<div class="text-center">
+    <p>Today is @DateTime.Now.ToLongDateString()</p>
+    <p>Pandemic has been our life since @PandemicStart.ToLongDateString()</p>
+    <p>Today is also known as @PandemicDateToString(DateTime.Now)</p>
+</div>
+
+
+@code {
+    public static DateTime PandemicStart { get; } = new DateTime(2020, 03, 11);
+    public static string GetTodayAsPandemicDate()
+    {
+        DateTime Today = DateTime.Now;
+        return PandemicDateToString(Today);
+    }
+    public static string PandemicDateToString(DateTime date)
+    {
+        TimeSpan durationOfPandemic = date.Subtract(PandemicStart);
+        string PandemicDateString = $"{ PandemicStart:MMMM} { PandemicStart.Day + durationOfPandemic.Days }, { PandemicStart.Year }";
+        return PandemicDateString;
+    }
+
+}

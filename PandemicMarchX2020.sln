@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsolePandemicDateApp", "ConsolePandemicDateApp\ConsolePandemicDateApp.csproj", "{02137B81-269C-4BE5-B48A-1ED7F7914AC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PandemicCalendarMarchx2020", "PandemicCalendarMarchx2020\PandemicCalendarMarchx2020.csproj", "{C2BC7612-E2F7-4F57-8F45-C7D43706E0FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02137B81-269C-4BE5-B48A-1ED7F7914AC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02137B81-269C-4BE5-B48A-1ED7F7914AC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02137B81-269C-4BE5-B48A-1ED7F7914AC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02137B81-269C-4BE5-B48A-1ED7F7914AC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2BC7612-E2F7-4F57-8F45-C7D43706E0FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2BC7612-E2F7-4F57-8F45-C7D43706E0FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2BC7612-E2F7-4F57-8F45-C7D43706E0FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2BC7612-E2F7-4F57-8F45-C7D43706E0FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75E028AB-F82A-4AB1-8456-2B54212EE301}
+	EndGlobalSection
+EndGlobal
