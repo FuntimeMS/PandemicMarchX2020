@@ -18,6 +18,17 @@ namespace ConsolePandemicDateApp
             Console.WriteLine($"That was { durationOfPandemic.Days } days ago");
 
             Console.WriteLine($"Today's Pandemic Date is: { PandemicDateTime.PandemicDateToString(Today) }");
+
+            DateTime test1 = new DateTime(2020, 03, 30, 15, 0, 0);
+            Console.WriteLine($"Testing: Pandemic Date for { test1 } is: { PandemicDateTime.PandemicDateToString(test1) }");
+            test1 = new DateTime(2020, 04, 30, 15, 0, 0);
+            Console.WriteLine($"Testing: Pandemic Date for { test1 } is: { PandemicDateTime.PandemicDateToString(test1) }");
+            test1 = new DateTime(2020, 05, 31, 15, 0, 0);
+            Console.WriteLine($"Testing: Pandemic Date for { test1 } is: { PandemicDateTime.PandemicDateToString(test1) }");
+            test1 = new DateTime(2020, 06, 30, 15, 0, 0);
+            Console.WriteLine($"Testing: Pandemic Date for { test1 } is: { PandemicDateTime.PandemicDateToString(test1) }");
+            test1 = new DateTime(2020, 07, 31, 15, 0, 0);
+            Console.WriteLine($"Testing: Pandemic Date for { test1 } is: { PandemicDateTime.PandemicDateToString(test1) }");
         }
     }
 }
